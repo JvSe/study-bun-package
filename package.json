@@ -2,6 +2,10 @@
   "name": "manage-directory",
   "module": "index.ts",
   "type": "module",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
   "devDependencies": {
     "@types/bun": "latest"
   },
